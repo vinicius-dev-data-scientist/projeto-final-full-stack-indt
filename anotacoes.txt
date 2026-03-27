@@ -1,0 +1,16 @@
+"java -jar brmodelo.jar" 
+
+Um item passa por vários setores
+Um item possui vários registros de histórico
+Um usuário realiza ações no histórico
+Um item tem um QR único
+
+
+Usuário realiza Histórico (1:N)
+Item possui Histórico (1:N)
+Setor participa do Histórico (1:N)
+Item está em Setor (N:1)
+
+Histórico guarda o rastreamento completo (linha do tempo)
+Status atual fica no item para performance (evita consulta pesada)
+QR Code é apenas um identificador único
