@@ -1,0 +1,10 @@
+export enum Acao{
+    CRIACAO,
+    MOVIMENTACAO,
+    ATUALIZACAO,
+    APROVACAO,
+    REPROVACAO,
+    RETRABALHO,
+    FINALIZACAO,
+    DEFEITO
+}
