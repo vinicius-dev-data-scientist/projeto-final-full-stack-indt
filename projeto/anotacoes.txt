@@ -1,0 +1,9 @@
+"type": "module" -> diz ao Node.js que o projeto usa o sistema de módulo moderno do JavaScript (ESModules), onde os imports são escritos como import x from 'y' em vez do antigo const x = require('y')
+
+"dev": "tsx watch src/server.ts" -> executa o servidor em modo de desenvolvimento. O tsx roda TypeScript diretamente e o watch reinicia automaticamente quando você salvar qualquer arquivo
+
+"build": "npx tsc" -> compila o Typescript para JavaScript na pasta dist/
+
+"start": "node dist/server.js" -> executa a versão compilada. seria usado em um servidor de produção
+
+a pasta no_modules nunca vai para o repositório Git. Ele pesa centenas de megabytes e pode ser recriada a qualquer momento rodando npm install.
