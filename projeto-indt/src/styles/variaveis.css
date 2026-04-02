@@ -1,0 +1,11 @@
+:root {
+    --color-success: rgb(3, 171, 3);
+    --color-error: rgb(175, 0, 0);
+    --color-warning: rgb(180, 180, 0);
+    --bgcolor-landpage: rgb(171, 171, 171);
+    --text-color: white;
+    --color-inprogress: blue;
+    --bg-color: black;
+    
+}
+
